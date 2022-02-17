@@ -1,0 +1,41 @@
+!include (iostream)
+using namespace std ;
+int func[]
+{
+    integer a=10;
+    integer b=7;
+    integer s=0;
+    condition[s less than a]
+    {
+        if[s less than 100]
+        {
+            integer i;
+            repeat[i=0 / i less than 5 / i ++]
+            {
+                back s=s plus a;
+            }
+            printout << s;
+
+            integer number=10;
+            integer n=5;
+            integer j = 1;
+            integer factorial = 1;
+            integer count = 0;
+            condition[count less than n]
+            {
+                repeat[j = 1 / j less than equal number / j ++ ]
+                {
+                    back factorial = factorial multiply j ;
+                }
+                printout << factorial;
+                back count = count plus 1;
+            }
+        }
+
+        if other
+            {
+        back s=s minus 10;
+        printout << s;
+            }
+    }
+}

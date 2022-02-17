@@ -1,0 +1,41 @@
+@include <iostream>
+
+integer func{}
+[
+    int a=10;
+    int b=7;
+    int s=0;
+    loop{s less than a}
+    [
+        if{s less than 100}
+        [
+            int i;
+            for{i=0 / i less than 5 / i =i+2}
+            [
+                back s=s plus a;
+            ]
+            print " s ";
+
+            int number=10;
+            int n=5;
+            int j = 1;
+            int factorial = 1;
+            int count = 0;
+            loop{count less than n}
+            [
+                for{j = 1 / j less than equal number / j ++ }
+                [
+                    return factorial = factorial multiply j ;
+                ]
+                print " factorial ";
+                return count = count plus 1;
+            ]
+        ]
+
+        if other
+            [
+        return s=s minus 10;
+        print " s ";
+            ]
+    ]
+]
